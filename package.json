@@ -1,7 +1,7 @@
 {
-  "name": "decky-plugin-template",
-  "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "name": "lotuswifi",
+  "version": "1.0.0",
+  "description": "A Steam Deck plugin that provides an easy-to-use interface for running the LotusWiFi monitoring script",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
@@ -10,21 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SteamDeckHomebrew/decky-plugin-template.git"
+    "url": "git+https://github.com/itsmikethetech/LotusWiFi.git"
   },
   "keywords": [
     "decky",
     "plugin",
-    "plugin-template",
     "steam-deck",
-    "deck"
+    "wifi",
+    "network",
+    "monitoring",
+    "latency"
   ],
-  "author": "You <you@you.tld>",
-  "license": "BSD-3-Clause",
+  "author": "itsmikethetech",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
+    "url": "https://github.com/itsmikethetech/LotusWiFi/issues"
   },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
+  "homepage": "https://github.com/itsmikethetech/LotusWiFi#readme",
   "devDependencies": {
     "@decky/rollup": "^1.0.1",
     "@decky/ui": "^4.7.2",
