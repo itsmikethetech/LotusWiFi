@@ -70,28 +70,28 @@ DECKY_PLUGIN_SETTINGS_DIR: str
 """
 The recommended path in which to store configuration files (created automatically).
 Environment variable: `DECKY_PLUGIN_SETTINGS_DIR`.
-e.g.: `/home/deck/homebrew/settings/LotusWiFi`
+e.g.: `/home/deck/homebrew/settings/LotusWifi-main`
 """
 
 DECKY_PLUGIN_RUNTIME_DIR: str
 """
 The recommended path in which to store runtime data (created automatically).
 Environment variable: `DECKY_PLUGIN_RUNTIME_DIR`.
-e.g.: `/home/deck/homebrew/data/LotusWiFi`
+e.g.: `/home/deck/homebrew/data/LotusWifi-main`
 """
 
 DECKY_PLUGIN_LOG_DIR: str
 """
 The recommended path in which to store persistent logs (created automatically).
 Environment variable: `DECKY_PLUGIN_LOG_DIR`.
-e.g.: `/home/deck/homebrew/logs/LotusWiFi`
+e.g.: `/home/deck/homebrew/logs/LotusWifi-main`
 """
 
 DECKY_PLUGIN_DIR: str
 """
 The root of the plugin's directory.
 Environment variable: `DECKY_PLUGIN_DIR`.
-e.g.: `/home/deck/homebrew/plugins/LotusWiFi`
+e.g.: `/home/deck/homebrew/plugins/LotusWifi-main`
 """
 
 DECKY_PLUGIN_NAME: str
@@ -119,7 +119,7 @@ DECKY_PLUGIN_LOG: str
 """
 The path to the plugin's main logfile.
 Environment variable: `DECKY_PLUGIN_LOG`.
-e.g.: `/home/deck/homebrew/logs/LotusWiFi/plugin.log`
+e.g.: `/home/deck/homebrew/logs/LotusWifi-main/plugin.log`
 """
 
 """
