@@ -228,7 +228,7 @@ class Plugin:
     async def _load_settings(self):
         """Load settings from file"""
         try:
-            settings_file = os.path.join(decky.DECKY_SETTINGS_DIR, "LotusWiFi.json")
+            settings_file = os.path.join(decky.DECKY_PLUGIN_SETTINGS_DIR, "LotusWiFi.json")
             if os.path.exists(settings_file):
                 with open(settings_file, 'r') as f:
                     saved_settings = json.load(f)
@@ -239,8 +239,8 @@ class Plugin:
     async def _save_settings(self):
         """Save settings to file"""
         try:
-            settings_file = os.path.join(decky.DECKY_SETTINGS_DIR, "LotusWiFi.json")
-            os.makedirs(decky.DECKY_SETTINGS_DIR, exist_ok=True)
+            settings_file = os.path.join(decky.DECKY_PLUGIN_SETTINGS_DIR, "LotusWiFi.json")
+            os.makedirs(decky.DECKY_PLUGIN_SETTINGS_DIR, exist_ok=True)
             with open(settings_file, 'w') as f:
                 json.dump(self.settings, f, indent=2)
         except Exception as e:
