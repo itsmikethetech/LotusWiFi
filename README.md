@@ -19,7 +19,7 @@ A Steam Deck plugin that provides an easy-to-use interface for running the Lotus
 
 ## How It Works
 
-The plugin creates a modified version of your `wifitoggler` script with your chosen settings and runs it in the background. It monitors the script's output to provide real-time status updates in the Steam Deck UI.
+The plugin creates a modified version of the `wifitoggler` script and runs it in the background. It monitors the script's output to provide real-time status updates in the Steam Deck UI.
 
 ## Usage
 
