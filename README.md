@@ -1,6 +1,6 @@
 # LotusWiFi - DeckyLoader Plugin
 
-A Steam Deck plugin that provides an easy-to-use interface for running the LotusWiFi monitoring script. This plugin gives you Steam Deck UI controls to start/stop your proven Wi-Fi monitoring script and configure its settings.
+A Steam Deck plugin that provides an easy-to-use interface for running the LotusWiFi monitoring script. This plugin gives you Steam Deck UI controls to start/stop your proven Wi-Fi monitoring script and configure its settings. Original script by **wanderingxlotus**.
 
 ## Features
 
