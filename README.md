@@ -4,7 +4,7 @@ A Steam Deck plugin that provides an easy-to-use interface for running the Lotus
 
 ## Features
 
-- **Script Wrapper**: Runs your original, tested `wifitoggler` bash script
+- **Script Wrapper**: Runs the original, tested `wifitoggler` bash script
 - **Steam Deck UI Integration**: Native controls to start/stop the script and adjust settings
 - **Real-time Status**: Shows script output and Wi-Fi restart notifications
 - **Configurable Settings**: Adjust latency threshold, check interval, and ping target through the UI
