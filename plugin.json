@@ -1,0 +1,11 @@
+{
+  "name": "LotusWiFi",
+  "author": "Steam Deck User",
+  "flags": ["debug", "_root"],
+  "api_version": 1,
+  "publish": {
+    "tags": ["network", "wifi", "utility"],
+    "description": "Monitor Wi-Fi latency and automatically restart Wi-Fi when latency exceeds threshold.",
+    "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
+  }
+}
